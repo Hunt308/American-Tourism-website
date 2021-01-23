@@ -1,6 +1,7 @@
 /*Global */
 
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 
 body{
@@ -19,6 +20,15 @@ ul{
 /*added auto to put things equal flexbox doesn'center things automatically so container auto helps*/
 .container{
     margin:auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+.current{
+    color: orange;
 }
 
 
@@ -62,7 +72,6 @@ ul{
 
 #showcase{
     background:url('../images/showcase.jpg') no-repeat center center;
-    margin-bottom: 20px;
     
 }
 
@@ -96,13 +105,41 @@ ul{
 
 /* Spots section */
 
+/*it is important to pick a large image if it is a background */
+#spots{
+    background: url('../images/spot-bg.jpg') no-repeat;
+    
+}
+
+#spots img{
+    margin: 20px;
+}
+
+
 #spots h2{
-    color: #FFD700;
+    font-size: 40px;
+    color: #ed1c23;
+    margin: 0;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-family: 'Potta One', cursive;
 }
 
 #spots ul{
-    color: #fff;
+    list-style: none;
+    color: #003366;
+    padding:0;
+    font-family: 'Potta One', cursive;
+    text-transform: uppercase;
+    line-height: 50px;
 }
+}
+
+#spots li{
+    line-height: 2.5em;
+    font-size: 15px;
+}
+
 
 
 /* Follow us page */
@@ -141,6 +178,8 @@ ul{
     color: #FFD700;
     text-transform: capitalize;
     font-style: bold;
+    padding-bottom: 10px;
+    font-size: 35px;
 }
 
 #features h4{
@@ -150,6 +189,7 @@ ul{
 
 #features p{
     color:#fff;
+    margin-bottom: 30px;
 }
 
 
