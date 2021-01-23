@@ -15,11 +15,34 @@ ul{
     padding: 0;
     margin:0;
 }
-/*added auto to put things equal */
+/*added auto to put things equal flexbox doesn'center things automatically so container auto helps*/
 .container{
     margin:auto;
 }
 
+/* Navbar */
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar span{
+    line-height: 5px;
+    color: green;
+}
+
+
+#navbar li{
+    display: inline;
+    padding-right: 10px;
+    list-style: none;
+    padding: 15px;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+}
 
 /*Showcase */
 
@@ -55,6 +78,33 @@ ul{
     border-radius: 90px;
     padding: 40px;
 }
+
+#follow-us{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+
+/* Follow us page */
+
+#follow-us{
+    text-transform: uppercase;
+}
+
+#follow-us li{
+    display: inline;
+    padding-right: 10px;
+    list-style: none;
+    padding: 15px;
+}
+
+#follow-us a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* footer */
 
 #footer{
     padding:20px;
