@@ -9,6 +9,7 @@ body{
     line-height: 1.5em;
     margin: 0;
     padding: 0;
+    background-color: #ed1c23;
 }
 
 ul{
@@ -20,14 +21,27 @@ ul{
     margin:auto;
 }
 
+
+
 /* Navbar */
-#navbar{
-    text-transform: uppercase;
+
+
+#main-header{
+    background-color: #0660a9;
 }
 
-#navbar span{
-    line-height: 5px;
-    color: green;
+
+#main-header .title-1{
+    color: #fff;
+}
+
+#main-header .title-2{
+    color: #FFD700;
+    font-style: italics;
+}
+
+#navbar{
+    text-transform: uppercase;
 }
 
 
@@ -41,7 +55,7 @@ ul{
 
 #navbar a {
     text-decoration: none;
-    color: #333;
+    color: #ffff;
 }
 
 /*Showcase */
@@ -55,7 +69,7 @@ ul{
 
 #showcase .row{
     height: 500px;
-    opacity: 0.9;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
 
@@ -68,28 +82,41 @@ ul{
 }
 
 #showcase p{
-    color: #ccc;
+    color: #fff;
     margin:0;
 }
 
 #showcase .showcase-content{
-    background-color: #333;
+    background-color: #0d76bd;
     color: #fff;
     border-radius: 90px;
     padding: 40px;
 }
 
-#follow-us{
-    padding: 20px;
-    background-color: blue;
-    color: white;
+
+/* Spots section */
+
+#spots h2{
+    color: #FFD700;
 }
+
+#spots ul{
+    color: #fff;
+}
+
 
 /* Follow us page */
 
 #follow-us{
     text-transform: uppercase;
 }
+
+#follow-us{
+    padding: 20px;
+    background-color: #0660a9;
+    color: #fff;
+}
+
 
 #follow-us li{
     display: inline;
@@ -103,12 +130,34 @@ ul{
     color: #fff;
 }
 
+/* features section */
+
+#features{
+    padding:10px;
+    margin: 10px;
+}
+
+#features h2{
+    color: #FFD700;
+    text-transform: capitalize;
+    font-style: bold;
+}
+
+#features h4{
+    color:#003366;
+    text-transform: uppercase;
+}
+
+#features p{
+    color:#fff;
+}
+
 
 /* footer */
 
 #footer{
     padding:20px;
-    background-color: red;
+    background-color: #888888;
     color: white;
     text-align: center;
     display: flex;
