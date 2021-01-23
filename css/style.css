@@ -15,10 +15,46 @@ ul{
     padding: 0;
     margin:0;
 }
+/*added auto to put things equal */
+.container{
+    margin:auto;
+}
 
 
+/*Showcase */
+
+#showcase{
+    background:url('../images/showcase.jpg') no-repeat center center;
+    margin-bottom: 20px;
+    
+}
 
 
+#showcase .row{
+    height: 500px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+
+}
+
+#showcase h1{
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin:0;
+}
+
+#showcase .showcase-content{
+    background-color: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+}
 
 #footer{
     padding:20px;
