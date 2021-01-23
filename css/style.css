@@ -38,6 +38,7 @@ img{
 
 #main-header{
     background-color: #0660a9;
+    border-bottom: 1px solid blue;
 }
 
 
@@ -72,6 +73,8 @@ img{
 
 #showcase{
     background:url('../images/showcase.jpg') no-repeat center center;
+    border-bottom: 1px solid blue;
+    border-top: none;
     
 }
 
@@ -115,6 +118,12 @@ img{
     margin: 20px;
 }
 
+#spots h1{
+    color: yellow;
+    font-size: 45px;
+    text-decoration: underline;
+    
+}
 
 #spots h2{
     font-size: 40px;
@@ -180,11 +189,18 @@ img{
     font-style: bold;
     padding-bottom: 10px;
     font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 35px;
+}
+
+#features img{
+    margin: 0 30 0 30px;
 }
 
 #features h4{
     color:#003366;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 #features p{
