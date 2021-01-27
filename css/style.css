@@ -169,13 +169,41 @@ img{
     display: inline;
     padding-right: 10px;
     list-style: none;
-    padding: 15px;
+    padding: 15px 50px 15px 50px;
 }
 
 #follow-us a{
     text-decoration: none;
     color: #fff;
 }
+
+.fa {
+    padding: 15px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+
+.fa-facebook {
+    background-color: #3B5998;
+
+  }
+  
+  .fa-twitter {
+    background-color: #55ACEE;
+  
+  }
+  
+
+  .fa-instagram {
+    background-color: #DE1B85;
+  }
+  
+  .fa-youtube {
+    background-color: #bb0000;
+
+  }
 
 /* features section */
 
