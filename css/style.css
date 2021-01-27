@@ -178,7 +178,7 @@ img{
 }
 
 .fa {
-    padding: 15px;
+    padding: 22px;
     width: 45px;
     text-align: center;
     border-radius: 50%;
@@ -237,6 +237,33 @@ img{
     margin-bottom: 30px;
 }
 
+
+
+/*Gallery section */
+#gallery {
+    margin: 10px 40px 10px 40px;
+    padding: 15px;
+}
+
+#gallery h2{
+    color: gold;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+#gallery img{
+    width: 200px;
+    height: 200px;
+
+}
+
+#gallery h4{
+    color: #3c3b6e ;
+}
+
+#gallery p{
+    color: #fff;
+}
 
 /* footer */
 
