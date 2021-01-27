@@ -27,9 +27,10 @@ img{
     width: 100%;
 }
 
-.current{
-    color: orange;
+#main-header .highlight a{
+    color: #00FF00;
 }
+
 
 
 
@@ -60,7 +61,7 @@ img{
     display: inline;
     padding-right: 10px;
     list-style: none;
-    padding: 15px;
+    padding: 15px 25px 15px 25px;
 }
 
 
@@ -159,7 +160,7 @@ img{
 
 #follow-us{
     padding: 20px;
-    background-color: #0660a9;
+    background-color: #0d76bd;
     color: #fff;
 }
 
