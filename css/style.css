@@ -115,6 +115,13 @@ img{
     
 }
 
+#spots .fa{
+    color: #00FF00;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
 #spots img{
     margin: 20px;
 }
@@ -137,7 +144,7 @@ img{
 
 #spots ul{
     list-style: none;
-    color: #003366;
+    color: #0000FF;
     padding:0;
     font-family: 'Potta One', cursive;
     text-transform: uppercase;
@@ -222,19 +229,27 @@ img{
     margin-bottom: 35px;
 }
 
+#features .fa{
+    margin-top: 20px;
+    padding: 0;
+    font-size: 52px;
+    color: green;
+}
+
+
 #features img{
     margin: 0 30 0 30px;
 }
 
 #features h4{
-    color:#003366;
+    color: #0000FF;
     text-transform: uppercase;
     font-size: 20px;
 }
 
 #features p{
     color:#fff;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 
@@ -258,27 +273,41 @@ img{
 }
 
 #gallery h4{
-    color: #3c3b6e ;
+    color: #0000FF ;
 }
 
 #gallery p{
     color: #fff;
 }
 
-/* Contact page */
+/* Contact page & about page*/
 
 #page h2{
     color: gold;
     text-decoration: underline;
     font-size: 50px;
+    z-index: 999;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    
 }
 
 #page p{
     color: #fff;
+    margin-bottom: 35px;
+    
+}
+
+
+#page img{
+    height: 200px;
+    width: 300px;
+    padding: 0;
+    margin: 15px;
 }
 
 .contact form{
-    background-color: aqua;
+    background-color: #0000FF;
     color: #fff;
     padding: 25px;
 }
@@ -325,4 +354,35 @@ img{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+
+/* Media Queries */
+
+@media(max-width: 800px){
+    #showcase h1, 
+    #page h2{
+        font-size: 32px;
+        
+    }
+
+    #page p{
+        max-width: 200px;
+        text-align: center;
+    }
+
+    #page h2,
+    #page img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+}
+
+
+@media(max-width: 500px){
+    #showcase .showcase-content{
+        padding: 30px 15px;
+    }
 }
