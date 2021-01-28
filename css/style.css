@@ -265,6 +265,57 @@ img{
     color: #fff;
 }
 
+/* Contact page */
+
+#page h2{
+    color: gold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#page p{
+    color: #fff;
+}
+
+.contact form{
+    background-color: aqua;
+    color: #fff;
+    padding: 25px;
+}
+
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+.contact form textarea{
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.contact form button{
+    width: 50%;
+    padding: 15px 0;
+    border: none;
+    background-color: brown;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact form button:hover{
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.contact form label{
+    text-transform: uppercase;
+}
+
+
 /* footer */
 
 #footer{
