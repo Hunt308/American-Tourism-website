@@ -31,7 +31,9 @@ img{
     color: #00FF00;
 }
 
-
+#main-header a:hover{
+    color: #ccc;
+}
 
 
 /* Navbar */
